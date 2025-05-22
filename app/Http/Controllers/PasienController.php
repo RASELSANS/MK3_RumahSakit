@@ -13,7 +13,7 @@ class PasienController extends Controller
 
         return response()->json([
             'status' => 200,
-            'message' => 'Data pasien berhasil diambil.',
+            'message' => 'Data berhasil diambil.',
             'data' => $pasien
         ], 200);
     }
